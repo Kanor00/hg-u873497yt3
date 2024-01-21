@@ -9,7 +9,7 @@ if script_key then
         ["Team"] = "Pirates", --Marines
         ["Webhook"] = {
             ["Url"] = "https://discord.com/api/webhooks/1198301213356195870/gZmc9NxeAeJdmHOUNVJykKXxlpX2-YcOGlfO4fsyqnACEa0cr-kAwOsfdIi7elatYNHh",
-            ["Enabled"] = false,
+            ["Enabled"] = true,
             ["Embed"] = true,
             ["StoredFruit"] = true,
             ["ImageEmbed"] = true,
