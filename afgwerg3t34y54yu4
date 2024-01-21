@@ -117,7 +117,7 @@ if script_key then
             ["Enable"] = true,
             ["FastClick"] = true,
             ["OnLowHealthDisable"] = true,
-            ["LowHealth"] = 6250,
+            ["LowHealth"] = 3000,
         },
         ["Misc"] = {
             ["AutoBuyRandomandStoreFruit"] = true,
@@ -128,9 +128,9 @@ if script_key then
         ["GunMethod"] = false, --Use Melee,Gun Will automaticly disable invisible for things
         ["GunMethodSetting"] = {
             LessSusKillTest=true,
-            StartHealth = 2000, -- Below Is Setting For Decrease Sus Kill From Gun Method
-            waittime=10,
-            EndHealth = 4000,
+            StartHealth = 1500, -- Below Is Setting For Decrease Sus Kill From Gun Method
+            waittime=4,
+            EndHealth = 2000,
         },
         ["Notify"] = {
             Enable = true,
