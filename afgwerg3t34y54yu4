@@ -100,7 +100,7 @@ if script_key then
         ["Mention"] = {
             ["Enable"] = true,
             ["Id"] = "432635572255981578", -- You Can Replace With Your Id (not your discord Name)
-            ["EveryBounty"] = 1000000,
+            ["EveryBounty"] = 10000,
         },
         ["FpsLock"] = {
             ["Enable"] = true,
