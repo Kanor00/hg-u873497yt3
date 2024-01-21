@@ -137,97 +137,85 @@ if script_key then
             CustomIcon = false,
             Image = "sticker.png", -- The Path Is: W-azure/AutoBounty/Notify
         },
-        ["SpamSkill"] = true, -- Will use all skills as fast as possbile ignore holding skills
-        ["Weapons"] = { -- Select Weapon, Self Explain
-            ["Melee"] = {
-                ["Enable"] = true,
-                ["Delay"] = 4,
-                ["Skills"] = {
-                    ["Z"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
-                [ "X"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
-    
-                    ["C"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
+    ["SpamSkill"] = false, -- Will use all skills as fast as possbile ignore holding skills
+    ["Weapons"] = { -- Select Weapon, Self Explain
+        ["Melee"] = {
+            ["Enable"] = true,
+            ["Delay"] = 2,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 1.5,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+
+                ["C"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
                 },
             },
-            ["Blox Fruit"] = {
-                ["Enable"] = true,
-                ["Delay"] = 4,
-                ["Skills"] = {
-                    ["Z"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
-                    ["X"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
-    
-                    ["C"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
-                    ["V"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
-                    ["F"] = {
-                        ["Enable"] = false,
-                        ["HoldTime"] = 0,
-                        ["TimeToNextSkill"] = 0,
-                    },
+        },
+        ["Blox Fruit"] = {
+            ["Enable"] = false,
+            ["Delay"] = 3,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+
+                ["C"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["V"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["F"] = {
+                    ["Enable"] = false,
+                    ["HoldTime"] = 0,
                 },
             },
-            ["Sword"] = {
-                ["Enable"] = false,
-                ["Delay"] = 1.5,
-                ["Skills"] = {
-                    ["Z"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0.1,
-                        ["TimeToNextSkill"] = 0.5,
-                    },
-                    ["X"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0.2,
-                        ["TimeToNextSkill"] = 0.5,
-                    },
+        },
+        ["Sword"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.5,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
                 },
             },
-            ["Gun"] = {
-                ["Enable"] = false,
-                ["Delay"] = 1,
-                ["Skills"] = {
-                    ["Z"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0.4,
-                        ["TimeToNextSkill"] = 0,
-                    },
-                    ["X"] = {
-                        ["Enable"] = true,
-                        ["HoldTime"] = 0.1,
-                        ["TimeToNextSkill"] = 0,
-                    },
+        },
+        ["Gun"] = {
+            ["Enable"] = false,
+            ["Delay"] = 0,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
                 },
             },
-    
-        }
+        },
+
     }
+}
     repeat wait()
     until game:IsLoaded()
     delay(DelayTime or 300,function()
