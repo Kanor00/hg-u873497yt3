@@ -65,7 +65,7 @@ if script_key then
         },
         ["Detect KeyWords"] = { -- If There Is A Person Says A Key Word In Chat, It Will Stop Auto Bounty And  Server Hop
             Enable = true,
-            Words = { "Hacker", "Exploiter", "Scripter", "Script", "Hack", "W-Azure", "hacker", "scripter", "hack", "exploit", "hile", "Hile"}
+            Words = { "Hacker", "Exploiter", "Scripter", "Script", "Hack", "W-Azure", "hacker", "scripter", "hack", "exploit", "hile", "Hile", "hacking", "Hacking"}
         },
         AutoConfigMelee = true,
         AutoConfigSword = true,
