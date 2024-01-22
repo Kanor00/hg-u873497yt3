@@ -21,7 +21,7 @@ if script_key then
         ["Panel"] = true,
         ["FpsBoost"] = {
             Enable = true,
-            Mode = "Full",--Lite: Just Lower Graphics, Full: Completely Make All Objects Transparent
+            Mode = "Lite",--Lite: Just Lower Graphics, Full: Completely Make All Objects Transparent
         },
         ["Hide Theme"] = false,
         ["3D Render Disable"] = true,
