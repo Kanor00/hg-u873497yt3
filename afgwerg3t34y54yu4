@@ -116,7 +116,7 @@ if script_key then
         ["Click"] = {
             ["Enable"] = true,
             ["FastClick"] = true,
-            ["OnLowHealthDisable"] = true,
+            ["OnLowHealthDisable"] = false,
             ["LowHealth"] = 3000,
         },
         ["Misc"] = {
