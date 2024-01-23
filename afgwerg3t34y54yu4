@@ -100,7 +100,7 @@ if script_key then
         ["Mention"] = {
             ["Enable"] = true,
             ["Id"] = "432635572255981578", -- You Can Replace With Your Id (not your discord Name)
-            ["EveryBounty"] = 8000,
+            ["EveryBounty"] = 7000,
         },
         ["FpsLock"] = {
             ["Enable"] = true,
@@ -117,7 +117,7 @@ if script_key then
             ["Enable"] = true,
             ["FastClick"] = true,
             ["OnLowHealthDisable"] = false,
-            ["LowHealth"] = 3000,
+            ["LowHealth"] = 3500,
         },
         ["Misc"] = {
             ["AutoBuyRandomandStoreFruit"] = true,
@@ -145,11 +145,11 @@ if script_key then
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 1.5,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 0.5,
                 },
 
                 ["C"] = {
@@ -191,11 +191,11 @@ if script_key then
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.5,
+                    ["HoldTime"] = 1,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.5,
+                    ["HoldTime"] = 0,
                 },
             },
         },
