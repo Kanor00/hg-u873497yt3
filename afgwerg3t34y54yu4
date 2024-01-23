@@ -117,7 +117,7 @@ if script_key then
             ["Enable"] = true,
             ["FastClick"] = true,
             ["OnLowHealthDisable"] = false,
-            ["LowHealth"] = 3500,
+            ["LowHealth"] = 3000,
         },
         ["Misc"] = {
             ["AutoBuyRandomandStoreFruit"] = true,
