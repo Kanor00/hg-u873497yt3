@@ -52,7 +52,7 @@ if script_key then
         ["Auto Use Race V3"] = {
             Enable = true,
             UseBelowHealth = false, -- Below Specific Health It Will use Race V3
-            Health = 4500,
+            Health = 4200,
             NearPlayer = true, -- Only use If Near Player
         },
         ["Auto Use Race V4"] = true, -- No Way you are turning this off
