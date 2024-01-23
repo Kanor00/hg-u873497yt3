@@ -117,7 +117,7 @@ if script_key then
             ["Enable"] = true,
             ["FastClick"] = true,
             ["OnLowHealthDisable"] = false,
-            ["LowHealth"] = 2900,
+            ["LowHealth"] = 3000,
         },
         ["Misc"] = {
             ["AutoBuyRandomandStoreFruit"] = true,
@@ -141,15 +141,15 @@ if script_key then
     ["Weapons"] = { -- Select Weapon, Self Explain
         ["Melee"] = {
             ["Enable"] = true,
-            ["Delay"] = 2,
+            ["Delay"] = 1.5,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1.5,
+                    ["HoldTime"] = 0,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.5,
+                    ["HoldTime"] = 0,
                 },
 
                 ["C"] = {
@@ -187,15 +187,15 @@ if script_key then
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 2,
+            ["Delay"] = 1.5,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 0.5,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 0.5,
                 },
             },
         },
