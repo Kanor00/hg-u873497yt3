@@ -117,7 +117,7 @@ if script_key then
             ["Enable"] = true,
             ["FastClick"] = true,
             ["OnLowHealthDisable"] = false,
-            ["LowHealth"] = 2500,
+            ["LowHealth"] = 3300,
         },
         ["Misc"] = {
             ["AutoBuyRandomandStoreFruit"] = true,
@@ -149,12 +149,12 @@ if script_key then
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.5,
+                    ["HoldTime"] = 1,
                 },
 
                 ["C"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 0.5,
                 },
             },
         },
@@ -187,7 +187,7 @@ if script_key then
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 2,
+            ["Delay"] = 1.5,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
